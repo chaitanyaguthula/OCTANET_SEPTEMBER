@@ -1,0 +1,225 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header/navigation */
+header {
+    background-color: #553b3b;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url(a.jpg);
+    background-size: 100%;
+    text-align: center;
+    padding: 250px 0;
+    color: black;
+}
+
+.hero h1 {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.join-button {
+    background-color: #553b3b;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.join-button:hover {
+    background-color: #493232;
+}
+
+/* Style the courses section */
+.courses {
+    text-align: center;
+    padding: 80px;
+}
+
+.courses h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.course-cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.course-card {
+    background-color: #eee;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.course-card img {
+    max-width: 80%;
+}
+
+.course-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tutorials {
+    text-align: center;
+    padding: 80px;
+}
+
+.tutorials h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.tutorial-cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.tutorial-card {
+    background-color: #eee;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.tutorial-card img {
+    max-width: 80%;
+}
+
+.tutorial-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.start-button {
+    background-color: #553b3b;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.wishlist-button {
+    background-color: #553b3b;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-logo i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.social-icons a i {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #222;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    color: #888;
+    font-size: 14px;
+}
+
